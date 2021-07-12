@@ -1,6 +1,6 @@
 class Github {
   constructor() {
-    this.repos_count = 5;
+    this.repos_count = 10;
     this.repos_sort = "created: asc";
   }
   async getRepos(user) {
